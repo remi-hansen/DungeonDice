@@ -11,6 +11,7 @@
 		9E51F27C28EA1D47000384E5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E51F27B28EA1D47000384E5 /* ContentView.swift */; };
 		9E51F27E28EA1D49000384E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E51F27D28EA1D49000384E5 /* Assets.xcassets */; };
 		9E51F28128EA1D49000384E5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E51F28028EA1D49000384E5 /* Preview Assets.xcassets */; };
+		9E5F7E0D28F5F20400F46AE4 /* ButtonLayoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5F7E0C28F5F20400F46AE4 /* ButtonLayoutView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,8 @@
 		9E51F27B28EA1D47000384E5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9E51F27D28EA1D49000384E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9E51F28028EA1D49000384E5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9E5F7E0C28F5F20400F46AE4 /* ButtonLayoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonLayoutView.swift; sourceTree = "<group>"; };
+		9E5F7E0E28F5F4F900F46AE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +54,10 @@
 		9E51F27828EA1D47000384E5 /* DungeonDice */ = {
 			isa = PBXGroup;
 			children = (
+				9E5F7E0E28F5F4F900F46AE4 /* Info.plist */,
 				9E51F27928EA1D47000384E5 /* DungeonDiceApp.swift */,
 				9E51F27B28EA1D47000384E5 /* ContentView.swift */,
+				9E5F7E0C28F5F20400F46AE4 /* ButtonLayoutView.swift */,
 				9E51F27D28EA1D49000384E5 /* Assets.xcassets */,
 				9E51F27F28EA1D49000384E5 /* Preview Content */,
 			);
@@ -138,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E51F27C28EA1D47000384E5 /* ContentView.swift in Sources */,
+				9E5F7E0D28F5F20400F46AE4 /* ButtonLayoutView.swift in Sources */,
 				9E51F27A28EA1D47000384E5 /* DungeonDiceApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,9 +276,9 @@
 				DEVELOPMENT_TEAM = 59A5P3H4UH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DungeonDice/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -299,9 +305,9 @@
 				DEVELOPMENT_TEAM = 59A5P3H4UH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DungeonDice/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
